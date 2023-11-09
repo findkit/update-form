@@ -1,6 +1,7 @@
 # `updateForm()`
 
 Javascript function to update fomr fields from a Javascript object. Handles inputs, selects, radio buttons and checkboxes.
+Plays well when integrating custom forms to [FindkitUI](https://www.findkit.com/building-e-commerce-search/).
 
 ## Install
 

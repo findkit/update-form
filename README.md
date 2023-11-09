@@ -9,7 +9,7 @@ Just copy paste [it](#code). You don't need npm for small functions.
 ## Usage
 
 ```js
-const form = document.querySelector(form);
+const form = document.querySelector("form");
 
 updateForm(form, {
   name: "John Doe",

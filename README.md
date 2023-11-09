@@ -18,6 +18,8 @@ updateForm(form, {
 
 ```
 
+Demo https://jsfiddle.net/p4qsyndv/31/
+
 ## Code
 
 
@@ -45,7 +47,10 @@ function updateForm(form, data) {
                     }
                 } else if (el instanceof HTMLInputElement) {
                     if (el.type === "checkbox" || el.type === "radio") {
-                        el.checked = el.value === value;
+                        if (el.value === value) {
+                            el.checked = true;
+                            continue;
+                        }
                     } else {
                         el.value = value;
                     }

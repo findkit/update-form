@@ -6,7 +6,7 @@ Plays well when integrating custom forms to [FindkitUI](https://www.findkit.com/
 
 ## Install
 
-Just copy paste it. You don't need npm for everthing.
+Just copy paste it. You don't need npm for everything.
 
 ## Usage
 

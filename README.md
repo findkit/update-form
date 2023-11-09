@@ -1,6 +1,6 @@
 # `updateForm()`
 
-Javascript function to update fomr fields from a Javascript object. Handle inputs, selects, radio buttons and checkboxes.
+Javascript function to update fomr fields from a Javascript object. Handles inputs, selects, radio buttons and checkboxes.
 
 ## Install
 

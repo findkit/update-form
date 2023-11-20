@@ -6,7 +6,7 @@ Plays well when integrating custom forms to [FindkitUI](https://www.findkit.com/
 
 ## Install
 
-Just copy paste it. You don't need npm for everything.
+Just copy paste [it](#code). You don't need npm for everything.
 
 ## Usage
 
@@ -19,6 +19,9 @@ updateForm(form, {
 });
 
 ```
+
+This just updates the given fields. Other fields are left untouched. You want to
+clear the other fields just run `form.reset()` before `upupdateForm()`.
 
 Demo https://jsfiddle.net/p4qsyndv/31/
 
